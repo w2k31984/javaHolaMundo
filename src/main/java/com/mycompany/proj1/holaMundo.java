@@ -16,16 +16,18 @@ public class holaMundo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Hola Mundo
         //System.out.print("Hola Mundo\n");
         //System.out.println("Hola Mundo2");
         //System.out.println("Hola Mundo3");
         //System.out.println("Hola Mundo4");
-        byte mordida;
+        //byte mordida;
         //mordida=126;
         //Utilizando casting
-        mordida=(byte)126.56;
-        System.out.println("mordida="+mordida);
+        //mordida=(byte)126.56;
+        //System.out.println("mordida="+mordida);
         
+        //Tipos de Variables
         short corto;
         corto=32000;
         System.out.println("corto="+corto);
@@ -38,8 +40,31 @@ public class holaMundo {
         largo=32000;
         System.out.println("largo="+largo);
         
+        //float flotante;
+        //flotante=(float)32000.55;
+        //flotante=32000.55f;
+        //System.out.println("flotante="+flotante);
+        
+        double doble;
+        doble=32000.55;
+        System.out.println("doble="+doble);
+        
+        char caracter;
+        caracter='C';
+        System.out.println("caracter="+caracter);
+        
+        boolean booleano;
+        //booleano=true;
+        booleano=false;
+        System.out.println("booleano="+booleano);
+        
+        //Datos Envoltorios
+        Byte mordida;
+        mordida=(byte)126.55;
+        System.out.println("mordida="+mordida);
+        //Trasladando el valor de Byte a float
         float flotante;
-        flotante=(float)32000.55;
+        flotante=mordida.floatValue();
         System.out.println("flotante="+flotante);
  }
 }
