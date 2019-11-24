@@ -16,7 +16,10 @@ public class holaMundo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.print("Hola Mundo");
+        System.out.print("Hola Mundo\n");
+        System.out.println("Hola Mundo2");
+        System.out.println("Hola Mundo3");
+        System.out.println("Hola Mundo4");
     }
     
 }
