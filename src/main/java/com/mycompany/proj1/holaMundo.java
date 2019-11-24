@@ -28,48 +28,59 @@ public class holaMundo {
         //System.out.println("mordida="+mordida);
         
         //Tipos de Variables
-        Short corto;
-        corto=32000;
-        System.out.println("corto="+corto);
+        //Short corto;
+        //corto=32000;
+        //System.out.println("corto="+corto);
         //Para cambiar a dato envoltorio int debemos colocar Integer
-        Integer entero;
-        entero=32000;
-        System.out.println("entero="+entero);
+        //Integer entero;
+        //entero=32000;
+        //System.out.println("entero="+entero);
         //En el caso de long pedira un dato casting para ejecutar la conversion
-        long largo;
+        //long largo;
         //largo=32000l;
-        largo=(long)32000;
-        System.out.println("largo="+largo);
+        //largo=(long)32000;
+        //System.out.println("largo="+largo);
         
         //float flotante;
         //flotante=(float)32000.55;
         //flotante=32000.55f;
         //System.out.println("flotante="+flotante);
         
-        Double doble;
-        doble=32000.55;
-        System.out.println("doble="+doble);
+        //Double doble;
+        //doble=32000.55;
+        //System.out.println("doble="+doble);
         
-        char caracter;
-        caracter='C';
-        System.out.println("caracter="+caracter);
+        //char caracter;
+        //caracter='C';
+        //System.out.println("caracter="+caracter);
         
-        boolean booleano;
+        //boolean booleano;
         //booleano=true;
-        booleano=false;
-        System.out.println("booleano="+booleano);
+        //booleano=false;
+        //System.out.println("booleano="+booleano);
         
         //Datos Envoltorios
-        Byte mordida;
+        //Byte mordida;
+        //mordida=(byte)126.55;
+       // System.out.println("mordida="+mordida);
+        //Trasladando el valor de Byte a float
+        //Float flotante;
+        //flotante=mordida.floatValue();
+        //System.out.println("flotante="+flotante);
+        
+        //String cadena;
+        //cadena="Cadena de caracteres";
+        //System.out.println("cadena="+cadena);
+        
+        //Contantes en Java
+        final Byte mordida;
         mordida=(byte)126.55;
         System.out.println("mordida="+mordida);
-        //Trasladando el valor de Byte a float
-        Float flotante;
-        flotante=mordida.floatValue();
-        System.out.println("flotante="+flotante);
         
-        String cadena;
-        cadena="Cadena de caracteres";
-        System.out.println("cadena="+cadena);
+        final float pi=3.1416f;
+        float res=pi*2;
+        System.out.println("pi*2="+res);
+        
+        
  }
 }
