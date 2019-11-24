@@ -6,6 +6,7 @@
 package com.mycompany.proj1;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -112,10 +113,31 @@ public class holaMundo {
         //System.out.println("Tu ingreso es: "+cadena);
         
         //Cambiando la entrada a valor Char o caracter
-        Scanner entrada=new Scanner(System.in);
-        char caracter;
-        System.out.println("Ingrese un tipo de dato numerico:");
-        caracter=entrada.next().charAt(0);
-        System.out.println("Tu ingreso es:"+caracter);
+        //Scanner entrada=new Scanner(System.in);
+        // caracter;
+        //System.out.println("Ingrese un tipo de dato numerico:");
+        //caracter=entrada.next().charAt(0);
+       //System.out.println("Tu ingreso es:"+caracter);
+       
+       //Ingreso de datos por ShowInputDialog o libreria grafica
+       //Datos de tipo cadena.
+       //String cadena=JOptionPane.showInputDialog("Ingrese una cadena");
+       //JOptionPane.showMessageDialog(null, "Esta es tu cadena "+cadena);
+       
+       //Datos de tipo entero
+       //int entero=Integer.parseInt(JOptionPane.showInputDialog("Ingrese una numero tipo entero"));
+       //JOptionPane.showMessageDialog(null, "Esta es tu entero "+entero);
+      
+       //Datos de tipo float o decimal
+       //float flotante=Float.parseFloat(JOptionPane.showInputDialog("Ingrese una numero"));
+       //JOptionPane.showMessageDialog(null, "Esta es tu entero "+flotante);
+       
+       //Datos de tipo Double
+       //double doble=Double.parseDouble(JOptionPane.showInputDialog("Ingrese una numero: "));
+       //JOptionPane.showMessageDialog(null, "Ingreso: "+doble);
+       
+       //Datos de tipo char
+       char caracter=JOptionPane.showInputDialog("Ingrese un dato: ").charAt(0);
+       JOptionPane.showMessageDialog(null, "Ingreso: "+caracter);
  }
 }
