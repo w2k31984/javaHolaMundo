@@ -39,7 +39,7 @@ public class holaMundo {
         System.out.println("largo="+largo);
         
         float flotante;
-        flotante=32000;
+        flotante=(float)32000.55;
         System.out.println("flotante="+flotante);
  }
 }
