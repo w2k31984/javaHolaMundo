@@ -28,16 +28,17 @@ public class holaMundo {
         //System.out.println("mordida="+mordida);
         
         //Tipos de Variables
-        short corto;
+        Short corto;
         corto=32000;
         System.out.println("corto="+corto);
-        
-        int entero;
+        //Para cambiar a dato envoltorio int debemos colocar Integer
+        Integer entero;
         entero=32000;
         System.out.println("entero="+entero);
-        
+        //En el caso de long pedira un dato casting para ejecutar la conversion
         long largo;
-        largo=32000;
+        //largo=32000l;
+        largo=(long)32000;
         System.out.println("largo="+largo);
         
         //float flotante;
@@ -45,7 +46,7 @@ public class holaMundo {
         //flotante=32000.55f;
         //System.out.println("flotante="+flotante);
         
-        double doble;
+        Double doble;
         doble=32000.55;
         System.out.println("doble="+doble);
         
@@ -63,8 +64,12 @@ public class holaMundo {
         mordida=(byte)126.55;
         System.out.println("mordida="+mordida);
         //Trasladando el valor de Byte a float
-        float flotante;
+        Float flotante;
         flotante=mordida.floatValue();
         System.out.println("flotante="+flotante);
+        
+        String cadena;
+        cadena="Cadena de caracteres";
+        System.out.println("cadena="+cadena);
  }
 }
