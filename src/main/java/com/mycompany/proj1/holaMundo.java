@@ -5,6 +5,8 @@
  */
 package com.mycompany.proj1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author w2k31984
@@ -73,14 +75,47 @@ public class holaMundo {
         //System.out.println("cadena="+cadena);
         
         //Contantes en Java
-        final Byte mordida;
-        mordida=(byte)126.55;
-        System.out.println("mordida="+mordida);
+        //final Byte mordida;
+        //mordida=(byte)126.55;
+        //System.out.println("mordida="+mordida);
         
-        final float pi=3.1416f;
-        float res=pi*2;
-        System.out.println("pi*2="+res);
+        //final float pi=3.1416f;
+        //float res=pi*2;
+        //System.out.println("pi*2="+res);
         
+        //Ingreso de datos por consola
+        //Scanner entrada=new Scanner(System.in);
+        //int entero;
+        //System.out.println("Ingrese un tipo de dato numerico entero:");
+        //entero=entrada.nextInt();
+        //System.out.println("Tu ingreso es:"+entero);
         
+        //Cambiando la entrada a valor flotante o decimal.
+        //Scanner entrada=new Scanner(System.in);
+        //float decimal;
+        //System.out.println("Ingrese un tipo de dato numerico:");
+        //decimal=entrada.nextFloat();
+        //System.out.println("Tu ingreso es:"+decimal);
+        
+        //Cambiando la entrada a valor double.
+        //Scanner entrada=new Scanner(System.in);
+        //double decimal;
+        //System.out.println("Ingrese un tipo de dato numerico:");
+        //decimal=entrada.nextDouble();
+        //System.out.println("Tu ingreso es:"+decimal);
+        
+        //Cambiando la entrada a valor String o cadena
+        //Scanner entrada=new Scanner(System.in);
+        //String cadena;
+        //System.out.println("Ingrese un texto:");
+        //cadena=entrada.nextLine();//nextLine recibe todo lo que se escriba.
+        //System.out.println("Tu ingreso es: "+cadena);
+        
+        //Cambiando la entrada a valor Char o caracter
+        Scanner entrada=new Scanner(System.in);
+        char caracter;
+        System.out.println("Ingrese un tipo de dato numerico:");
+        caracter=entrada.next().charAt(0);
+        System.out.println("Tu ingreso es:"+caracter);
  }
 }
