@@ -136,8 +136,30 @@ public class holaMundo {
        //double doble=Double.parseDouble(JOptionPane.showInputDialog("Ingrese una numero: "));
        //JOptionPane.showMessageDialog(null, "Ingreso: "+doble);
        
-       //Datos de tipo char
+       /*Datos de tipo char
        char caracter=JOptionPane.showInputDialog("Ingrese un dato: ").charAt(0);
-       JOptionPane.showMessageDialog(null, "Ingreso: "+caracter);
+       JOptionPane.showMessageDialog(null, "Ingreso: "+caracter);*/
+       
+       //Operadores Aritmeticos Matematicos
+       Scanner entra=new Scanner (System.in);
+       float num1,num2,suma,resta,div,mul,residuo;
+       System.out.println("Ingrese dos numeros");
+       num1=entra.nextFloat();
+       num2=entra.nextFloat();
+       suma=num1+num2;
+       resta=num1-num2;
+       div=num1/num2;
+       mul=num1*num2;
+       residuo=num1%num2;
+       System.out.println("Suma= "+suma);
+       System.out.println("Resta= "+resta);
+       System.out.println("Division= "+div);
+       System.out.println("Multiplicacion= "+mul);
+       System.out.println("Residio= "+residuo);
+        
+       
+       
+       
+       
  }
 }
